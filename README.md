@@ -98,8 +98,8 @@ ai_brain = NeuralNet()
 criterion = nn.MSELoss()
 optimizer = optim.Adam(ai_brain.parameters(), lr=0.001)
 
-# Name:SUBHASHRI R
-# Register Number:212223230219
+# Name:J.JANANI
+# Register Number:212223230085
 def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
     for epoch in range(epochs):
         optimizer.zero_grad()
